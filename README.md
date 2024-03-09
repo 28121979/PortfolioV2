@@ -7,12 +7,18 @@ Bienvenue sur le répertoire GitHub de mon portfolio web personnel. Ce projet re
 
 <h3>Technologies Utilisées</h3>
 
-HTML5
-.CSS3
+<br>.HTML5</br>
+
+<br>.CSS3</br>
+
 .JavaScript
+
 .Bibliothèques externes :
+
     Boxicons
+
     ScrollReveal
+
     Typed.js
 
 <h3>Caractéristiques</h3>
@@ -48,7 +54,7 @@ Ajustez script.js : Adaptez les scripts pour changer les comportements interacti
 
 Les contributions à ce projet sont les bienvenues ! Que ce soit pour des corrections de bugs, des améliorations des fonctionnalités existantes, ou l'ajout de nouvelles fonctionnalités, n'hésitez pas à proposer vos changements via des pull requests.
 
-<h3>Licence<?h3>
+<h3>Licence</h3>
 
 Ce projet est mis à disposition sous une licence libre d'utilisation. Vous êtes encouragé à l'utiliser, le modifier, et le partager selon vos besoins.
 
@@ -56,5 +62,6 @@ Ce projet est mis à disposition sous une licence libre d'utilisation. Vous ête
 
 Si vous avez des questions ou souhaitez entrer en contact pour discuter d'opportunités, veuillez me joindre via :
 
-GitHub
+GitHub<br>
+
 LinkedIn

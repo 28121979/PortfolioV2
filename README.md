@@ -4,8 +4,12 @@
 <h1>Portfolio de Moussa Camara</h1>
 
 
+## <div align="center">🟣 Bonjour, voici mon  portfolio [regardez ici ](https://28121979.github.io/PortfolioV2/) 🟣</div>
+
 
 Bienvenue sur le répertoire GitHub de mon portfolio web personnel. Ce projet représente une combinaison de ma passion pour le développement web et mon engagement à créer une présence en ligne professionnelle et accueillante. Basé à Toulon, dans la région de Provence Alpes Côte d'Azur, France, ce portfolio sert de vitrine à mes compétences, mes réalisations, et à mon parcours unique.
+
+
 
 
 <h3>Technologies Utilisées</h3>

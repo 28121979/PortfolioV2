@@ -330,6 +330,8 @@ span {
     margin-bottom: 3rem;
 }
 
+
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
@@ -337,13 +339,14 @@ span {
     margin-bottom: 3rem;
 }
 
-.contact form .input-box {
+.contact form .form-field {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: var(--main-color);
 }
 
-.contact form .input-box input,
+.contact form .form-field input,
 .contact form textarea {
     width: 100%;
     padding: 1.5rem;
@@ -352,14 +355,34 @@ span {
     background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
+    border: 2px solid var(--main-color);
 }
 
-.contact form .input-box input {
+.contact form .form-field input {
     width: 49%;
 }
 
+
 .contact form textarea {
     resize: none;
+}
+
+.form-field :focus,
+.input-box textarea:focus {
+    outline: none;
+    border-color: var(--main-color);
+}
+
+.form-field.error .form-control  {
+    border-color: red;
+}
+
+.form-field.success .form-control  {
+    border-color: green;
+}
+
+.form-field small {
+    color: red;
 }
 
 .contact form .btn {

@@ -40,8 +40,6 @@
             <p>Je vis dans la belle région de Provence Alpes Côte d'Azur à Toulon, France.</p>
             <div class="social-media">
                 <a href="https://github.com/28121979" target="_blank" rel="noopener" aria-label="gitHub"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="https://www.linkedin.com/in/moussa-camara-036ab1239" target="_blank" rel="noopener" aria-label="linkedin""><i class='bx bxl-linkedin'></i></a>
             </div>
             <a href="cv professionnel développeur web.pdf" target="_blank" class="btn">Download CV</a>
@@ -60,7 +58,7 @@
 
         <div class="about-content">
             <h2 class="heading">À propos de <span>Moi</span></h2>
-            <h3>Développeur Frond-!</h3>
+            <h3>Développeur Full - Stack</h3>
             <p>"Après vingt années de service militaire. J'ai acquis une solide base en rigueur, discipline et esprit
                 collaboratif. En tant que développeur web, je mets désormais à profit ces compétences pour créer des
                 sites web exceptionnels. Prêt à partager mes services, je suis passioné par la conception et la
@@ -100,7 +98,7 @@
 
     <!-- portfolio section design -->
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
+        <h2 class="heading">Mes derniers <span>Projets</span></h2>
 
         <div class="portfolio-container">
             <div class="portfolio-box">
@@ -162,18 +160,27 @@
     <!-- contact section design -->
     <section class="contact" id="contact">
         <h2 class="heading">Contactez <span>Moi!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+        <form action="#" id="signup" name="formValidate">
+            <div class="form-field">
+                <label for="name" class="form-label"></label> 
+                <input type="text" name="name" class="form-control" id="name" placeholder ="Nom et Prénom" autocomplete="off">
+                <small></small>
+                <label for="email" class="form-label"></label>
+                <input type="email" name="email" class="form-control" id="email" placeholder ="Email" autocomplete="off">
+                <small></small>
             </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+            <div class="form-field">
+                <label for="phone" class="form-label"></label>
+                <input type="text" name="phone" class="form-control" id="phone" placeholder ="Telephone" autocomplete="off">
+                <small></small>
+                <label for="subject" class="form-label"></label>
+                <input type="text" name="subject" class="form-control" id="subject" placeholder ="Sujet" autocomplete="off">
+                <small></small>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <div class="form-field">
+            <textarea name="" class="form-control" id="message" cols="30" rows="10" placeholder="Yotre message" autocomplete="off"></textarea>
+            </div>
+            <input type="submit" value="Envoyer" class="btn">
         </form>
     </section>
 
@@ -195,6 +202,8 @@
     <!-- typed js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- custom js -->
     <script src="script.js"></script>
 </body>
